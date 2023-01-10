@@ -100,7 +100,7 @@ body {
 
 .footer {
   padding: 0 7% 0 7%;
-  margin-top: 116px;
+  margin-top: 182px;
   background-color: #1C1C1E;
   height: 120px;
   display: flex;
@@ -109,3 +109,18 @@ body {
   flex-wrap: wrap;
 }
 
+@media (min-width:991px) {
+  .gog {
+    display: none;
+  }
+}
+
+@media (max-width:991px) {
+  .nav, .go {
+    display: none;
+  }
+
+  .gog {
+    display: block;
+  }
+}
