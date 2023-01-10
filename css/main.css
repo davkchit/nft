@@ -16,7 +16,7 @@ body {
   height: 1055px;
   margin: 146px auto 0 auto;
   border-radius: 40px 40px 0px 0px;
-  background-color: black;
+  background-color: #0E0E10;
   padding: 73px 0% 0 0%;
 }
 
@@ -30,6 +30,11 @@ body {
 
 .logo {
   padding-top: 15px;
+  transition: all .55s ease;
+}
+
+.logo:hover {
+  transform: translateX(8px);
 }
 
 .nav * {
@@ -38,6 +43,11 @@ body {
   font-weight:bold;
   font-size: 20px;
 }
+
+.navchild {
+  transition: all .55s ease;
+}
+
 
 #button {
   padding: 10px 38px;
@@ -49,6 +59,11 @@ body {
   color: white;
   font-size: 16px;
   font-family: 'Cousine', monospace;
+  transition: all .55s ease;
+}
+
+#button:hover {
+  transform: translateY(8px);
 }
 
 .hero {
@@ -69,6 +84,11 @@ body {
   font-weight: bold;
   font-family: 'Inter', sans-serif;
   color: white;
+  transition: all .55s ease;
+}
+
+#discover:hover{
+  transform: translateX(8px);
 }
 
 #worlds {
@@ -79,6 +99,19 @@ body {
   font-weight: 400;
   letter-spacing: 8%;
   line-height: 35px;
+  transition: all .55s ease;
+}
+
+#worlds:hover {
+  transform: translateX(8px);
+}
+
+#photo {
+  transition: all .55s ease;
+}
+
+#photo:hover {
+  transform: translateX(8px);
 }
 
 #exploer {
@@ -96,6 +129,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .55s ease;
+}
+
+#exploer:hover {
+  transform: translateX(8px);
 }
 
 .footer {
@@ -107,6 +145,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  transition: all .55s ease;
 }
 
 @media (min-width:991px) {
