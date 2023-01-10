@@ -1,0 +1,111 @@
+@import "./media.css";
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: #200F22;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.block {
+  max-width: 1440px;
+  height: 1055px;
+  margin: 146px auto 0 auto;
+  border-radius: 40px 40px 0px 0px;
+  background-color: black;
+  padding: 73px 0% 0 0%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 7% 0 7%;
+}
+
+.logo {
+  padding-top: 15px;
+}
+
+.nav * {
+  margin-right: 40px;
+  color: white;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+#button {
+  padding: 10px 38px;
+  width: 94px;
+  height: 40px;
+  background-color: #0E0E10;
+  border-radius: 6px;
+  border: solid 1px #C584F5;
+  color: white;
+  font-size: 16px;
+  font-family: 'Cousine', monospace;
+}
+
+.hero {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 100px 7% 0 7%;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#discover {
+  font-size: 78px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+#worlds {
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 8%;
+  line-height: 35px;
+}
+
+#exploer {
+  margin-top: 40px;
+  display: block;
+  width: 198px;
+  height: 64px;
+  background: linear-gradient(135deg,#84EEF5 10%,#C584F5 60%);
+  border-radius:15px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding: 0 7% 0 7%;
+  margin-top: 116px;
+  background-color: #1C1C1E;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
