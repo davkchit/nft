@@ -71,7 +71,7 @@ body {
   flex-flow: row;
   justify-content: space-between;
   padding: 100px 7% 0 7%;
-  flex-wrap: wrap;
+  
 }
 
 .text {
@@ -148,6 +148,7 @@ body {
   transition: all .55s ease;
 }
 
+
 @media (min-width:991px) {
   .gog {
     display: none;
@@ -162,4 +163,43 @@ body {
   .gog {
     display: block;
   }
+}
+
+@media (max-width:1221px) {
+  .block {
+    height: auto;
+  }
+
+  #photo {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width:375px) {
+  #discover {
+    font-size: 48px;
+  }
+}
+
+@media (max-width:1013px) {
+  .hero {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #photo {
+    margin-top: 100px;
+  }
+
+  .footer {
+    margin-top: 50px;
+    flex-flow: column;
+    height: auto;
+  }
+
+  .footer * {
+    margin-top: 10px;
+  }
+
 }
